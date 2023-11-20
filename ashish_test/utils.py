@@ -36,25 +36,30 @@ def format_steps(steps):
         if arg2.startswith('#'):
             arg2_index = int(arg2[1:])
             arg2 = results[arg2_index]
+        for arg in [arg1,arg2]:
+            if "const_m1" == arg:
+                arg = -1
+            elif "const" in arg:
+                arg = float(arg.split("_")[1])  
         # Handling different operations
         if 'add' in op:
-            description = f"Step {i+1}: Add {arg1} and {arg2}. Result: {res}"
+            description = f"Step {i+1}: Add {arg1} and {arg2}. This gives the result: {res}"
         elif 'subtract' in op or 'minus' in op:
-            description = f"Step {i+1}: Subtract {arg2} from {arg1}. Result: {res}"
+            description = f"Step {i+1}: Subtract {arg2} from {arg1}. This gives the result: {res}"
         elif 'multiply' in op:
-            description = f"Step {i+1}: Multiply {arg1} by {arg2}. Result: {res}"
+            description = f"Step {i+1}: Multiply {arg1} by {arg2}. This gives the result: {res}"
         elif 'divide' in op:
-            description = f"Step {i+1}: Divide {arg1} by {arg2}. Result: {res}"
-        elif 'greater' in op:
-            description = f"Step {i+1}: Check if {arg1} is greater than {arg2}. Result: {res}"
+            description = f"Step {i+1}: Divide {arg1} by {arg2}. This gives the result: {res}"
+        elif 'larger' in op:
+            description = f"Step {i+1}: Check if {arg1} is greater than {arg2}. This gives the result: {res}"
         elif 'exp' in op:
-            description = f"Step {i+1}: Raise {arg1} to the power of {arg2}. Result: {res}"
+            description = f"Step {i+1}: Raise {arg1} to the power of {arg2}. This gives the result: {res}"   
         elif 'table' in op:
-            description = f"Step {i+1}: Apply '{op.split('-')[0]}' operation on table row. Result: {res}"
+            description = f"Step {i+1}: Apply '{op.split('-')[0]}' operation on table row. This gives the result: {res}"
 
         formatted_steps.append(description)
         results.append(res)  # Storing result for future reference
 
-    return '\n'.join(formatted_steps)
+    return ' ####### '.join(formatted_steps)
 
 
