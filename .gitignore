@@ -1,2 +1,9 @@
 ./finqa_finetune_t5.pth/*
 ./ashish_test/finqa_finetune_t5.pth/*
+ashish_test/finqa_finetune_t5.pth/config.json
+finqa_finetune_t5.pth/model.safetensors
+finqa_finetune_t5.pth/generation_config.json
+finqa_finetune_t5.pth/config.json
+ashish_test/finqa_finetune_t5.pth/pytorch_model.bin
+ashish_test/finqa_finetune_t5.pth/generation_config.json
+ashish_test/generated_sentences_test.pkl
