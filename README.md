@@ -8,6 +8,9 @@ This repository contains all the relevant data and code files for DLT Project.
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
  
  **Methodology**
+ <p align="center"><img src="./images/" width=800 height = 300> <br/>
+Figure 1: HG-GNN Architecture
+</p>
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
  
 **Important Links :**
