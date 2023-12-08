@@ -11,6 +11,7 @@ This repository contains all the relevant data and code files for DLT Project.
  <p align="center"><img src="./Images/method_pipeline.png" width=800 height = 300> <br/>
 Figure 1: LLMs to do Numerical Reasoning on annual reports (Pipeline)
 </p>
+
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
  
 **Important Links :**
