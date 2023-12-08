@@ -1,5 +1,5 @@
 # CSE8803_DLT_Project
-This repository contains all the relevant data and code files for DLT Project.
+This repository contains all the relevant data and code files for our DLT Project.
 
  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
  [![Pytorch](https://img.shields.io/badge/-Pytorch-white.svg?logo=pytorch&style=social)](https://pytorch.org/)
