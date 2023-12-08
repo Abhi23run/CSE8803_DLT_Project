@@ -8,6 +8,7 @@ This repository contains all the relevant data and code files for DLT Project.
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
  **Abstract**
+ 
  Financial reports offer critical insights into a company’s operations, yet their
 extensive length—typically spanning 30-40 pages—poses challenges for swift
 decision-making in dynamic markets. To address this, we leveraged fine-tuned
