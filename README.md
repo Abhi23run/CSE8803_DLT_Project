@@ -27,10 +27,10 @@ Figure 1: LLMs to do Numerical Reasoning on annual reports (Pipeline)
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
  **Conclusion**
+ 
  As part of this exercise we have been able to engineer a robust approach for numerical question
 answering from PDF reports by leveraging advanced natural language processing techniques, based
-on T5, Llama-2 and Langchain.
-Despite the overall success, certain nuances required careful consideration. Parsing non-conventional tables presented challenges, as the approach encountered limitations in handling unconventional table structures commonly found in complex reports. Additionally, errors in the table-to-text serialization process posed another obstacle, demanding a refined post-processing pipeline to enhance the accuracy of the answers generated. Furthermore, it was observed that certain aspects of question-answering with large language models (LLMs), exhibited subpar performance,necessitating ongoing efforts to address and improve model performance.
+on T5, Llama-2 and Langchain. Despite the overall success, certain nuances required careful consideration. Parsing non-conventional tables presented challenges, as the approach encountered limitations in handling unconventional table structures commonly found in complex reports. Additionally, errors in the table-to-text serialization process posed another obstacle, demanding a refined post-processing pipeline to enhance the accuracy of the answers generated. Furthermore, it was observed that certain aspects of question-answering with large language models (LLMs), exhibited subpar performance,necessitating ongoing efforts to address and improve model performance.
 In conclusion, while our approach demonstrated commendable results in numerical question answering from PDF reports, continual refinement is essential to overcome challenges related to non-conventional tables, serialization errors, and performance nuances associated with large language
 models in question-answering tasks. These insights guide our ongoing efforts to enhance the robustness and applicability of our approach.
 
